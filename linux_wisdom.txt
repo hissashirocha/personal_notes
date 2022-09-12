@@ -1,0 +1,5 @@
+Useful commands in Linux
+
+**FIND TEXT in file
+- grep -rnw . -e 'pattern' (r: recursive, n: line number, w: match whole word, e: pattern)
+

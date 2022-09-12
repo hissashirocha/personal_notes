@@ -1,0 +1,33 @@
+Important VIM knowledge that I shouldn't forget
+
+CONFIG
+- The config file for VIM is '.conig/nvim/init.vim'
+
+COPY/PASTE
+To be able to copy something from VIM to the OS clipboard:
+	- sudo apt-get install vim-gtk3
+	- copy anything using ' "+y ' 
+	- to activate PASTE MODE ':set paste', now Ctrl + Shift + V works 
+
+NERDTree
+- Ctrl+f, Ctrl+t: opens nerd tree (shortcut in init.vim)
+- o: opens folders and files
+- r: refresh tree in case something has changed in the directory
+- m: allows creating files
+
+Vim Plug
+- Install Vim Plug to be able to add other Plugins (https://github.com/junegunn/vim-plug)
+- Add plugins in init.vim file and run :PlugInstall
+
+ESC
+- Install gnome tweaks 'sudo apt-get install gnome-tweaks'
+- Open 'Tweaks' > Keyboard & Mouse > Additional Layout Options
+- Caps Lock behavior > Make Caps Lock an additional Esc
+
+AUTO COMPLETE PYTHON
+- Install deoplete
+- Install Jedi 'https://github.com/deoplete-plugins/deoplete-jedi'
+- Add them to plug vim managet in init.vim 'https://github.com/Shougo/deoplete.nvim'
+
+Fzf/NEW TAB
+- Using fzf, you can open a new tab using CTRL+T

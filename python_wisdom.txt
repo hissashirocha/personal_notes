@@ -1,0 +1,10 @@
+VENV
+
+- Install 'sudo apt install python3.10-venv'
+- Go to project folder an run 'python3 -m venv env' (env being the name of the environment)
+- Run 'source /env/bin/activate' to activate
+- Run 'deactivate'
+
+- List all install libraries: 'pip list'
+- Save requirements: 'pip freeze > requirements.txt'
+- Install libraries: 'pip install -r requirements.txt'  
