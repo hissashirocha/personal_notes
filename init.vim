@@ -1,3 +1,4 @@
+color desert
 :set number
 :set relativenumber
 :set autoindent
@@ -23,7 +24,11 @@ Plug 'majutsushi/tagbar' " Tag bar
 " Plug 'ludovicchabant/vim-gutentags'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " Fuzzy finder in VIM
 Plug 'junegunn/fzf.vim' " Fuzzy finder in VIM
-Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-commentary' " To comment lines
+Plug 'mhinz/vim-startify' " First VIM screen
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-fugitive'
+
 
 call plug#end()
 
@@ -35,7 +40,7 @@ nnoremap <leader>l :BLines<CR>
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>c :Commands<CR>
 nnoremap <leader>b :Buffers<CR>
-" It only works with the silver search install 'sudo apt-get install silvesearcher-ag' 
+" It only works with the silver search install 'sudo apt-get silvesearcher-ag' 
 nnoremap <leader>s :Ag<CR>
 nnoremap <leader>w :tabclose<CR>
 

@@ -1,4 +1,5 @@
-Important VIM knowledge that I shouldn't forget
+
+**Important VIM knowledge that I shouldn't forget
 
 CONFIG
 - The config file for VIM is '.conig/nvim/init.vim'
