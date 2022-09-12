@@ -35,6 +35,7 @@ nnoremap <leader>l :BLines<CR>
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>c :Commands<CR>
 nnoremap <leader>b :Buffers<CR>
+" It only works with the silver search install 'sudo apt-get install silvesearcher-ag' 
 nnoremap <leader>s :Ag<CR>
 nnoremap <leader>w :tabclose<CR>
 

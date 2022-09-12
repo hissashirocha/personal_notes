@@ -3,3 +3,5 @@ Useful commands in Linux
 **FIND TEXT in file
 - grep -rnw . -e 'pattern' (r: recursive, n: line number, w: match whole word, e: pattern)
 
+**SAVE RESULT TO CLIPBOARD
+- command | clipboard (it's an alias for 'xclip -sel copy')
