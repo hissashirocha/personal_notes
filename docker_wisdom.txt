@@ -3,3 +3,6 @@ DOCKER
 - sudo apt-get update
 - sudo apt-get install docker.io
 - sudo apt install docker-compose
+
+SEE LOGS of airflow container
+- sudo docker logs -f XXXXXXXXXXX
