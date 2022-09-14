@@ -30,5 +30,10 @@ AUTO COMPLETE PYTHON
 - Install Jedi 'https://github.com/deoplete-plugins/deoplete-jedi'
 - Add them to plug vim managet in init.vim 'https://github.com/Shougo/deoplete.nvim'
 
+BETTER AUTO COMPLETE
+- Install coc
+- Install pyright :CocInstall coc-pyright
+- Define key bindings in init.vim
+
 Fzf/NEW TAB
 - Using fzf, you can open a new tab using CTRL+T
