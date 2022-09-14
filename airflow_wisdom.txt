@@ -1,0 +1,8 @@
+**Important notes about airflow
+
+RUN tasks individually
+- airflow tasks test dag_name task_name 2019-01-01 (date in the past)
+
+RUN Backfill
+- airflow backfill -s 2019-01-01 -e 2019-01-05 --rerun_failed_tasks -B (process dates backwards) dag_name
+
