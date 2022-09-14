@@ -34,6 +34,7 @@ BETTER AUTO COMPLETE
 - Install coc
 - Install pyright :CocInstall coc-pyright
 - Define key bindings in init.vim
+- When going to a definition, CTRL+O comes back
 
 Fzf/NEW TAB
 - Using fzf, you can open a new tab using CTRL+T
