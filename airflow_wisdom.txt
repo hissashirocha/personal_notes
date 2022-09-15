@@ -6,3 +6,12 @@ RUN tasks individually
 RUN Backfill
 - airflow backfill -s 2019-01-01 -e 2019-01-05 --rerun_failed_tasks -B (process dates backwards) dag_name
 
+DEFINING Number of Workers
+* ideally: number of cores * 2 + 1
+
+DEBUGGING
+- change logging_level parameter in the airflow.cfg and check the webserver logs: sudo docker logs -f XXXXXXXXX
+
+** Dag level: dagrun_timeout, sla_miss, on_failure and on_sucess callback functions
+** Task level: email, retry params, callbacks
+

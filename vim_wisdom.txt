@@ -38,3 +38,8 @@ BETTER AUTO COMPLETE
 
 Fzf/NEW TAB
 - Using fzf, you can open a new tab using CTRL+T
+
+GO to References (COC)
+- gd: definition
+- gr: other reference (opens a split)
+- Ctrl+w + q: closes splits

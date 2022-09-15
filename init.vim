@@ -30,7 +30,6 @@ Plug 'mhinz/vim-startify' " First VIM screen
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-fugitive'
 
-
 call plug#end()
 
 " Key bindings
@@ -88,4 +87,5 @@ function! ShowDocumentation()
     call feedkeys('K', 'in')
   endif
 endfunction
+
 
