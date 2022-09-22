@@ -43,3 +43,33 @@ GO to References (COC)
 - gd: definition
 - gr: other reference (opens a split)
 - Ctrl+w + q: closes splits
+
+FORMAT JSON
+- Having jq installed, :%!jq
+
+ABBREVIATIONS
+- :ab, list all abbreviations 
+- :ab word text being abbreviated, creates an abbreviation
+- 'word': after typing, the abbreviation will be changed to the longer text
+
+SORTING
+- :sort
+- :%sort !: reverse
+- :%sort u: sort, removing duplicates
+
+***ADVANCED JUMP
+
+SEARCH / Highlight
+- /word + enter: search forward
+- ?word: search backwards
+- n: next, N: previous 
+- :noh (turn highlight off)
+
+MARKING a position
+- m{some letter}: set a mark
+- '{letter}: go to line with mark
+- `{letter}: go to the exact character with mark
+
+INSIDE or AROUND
+- vi": select all inside " ", va": including " "
+- viw, vaw: select word, select word and space

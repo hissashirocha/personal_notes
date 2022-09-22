@@ -5,3 +5,5 @@ Useful commands in Linux
 
 **SAVE RESULT TO CLIPBOARD
 - command | clipboard (it's an alias for 'xclip -sel copy')
+
+**BASHRC: ~/.bashrc
