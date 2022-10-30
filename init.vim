@@ -45,7 +45,7 @@ nnoremap <leader>s :Ag<CR>
 nnoremap <leader>w :tabclose<CR>
 
 nnoremap <C-f> :NERDTreeFocus<CR>
-" nnoremap <C-t> :TagbarToggle<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
 
 " Binding for switching tabs
 nnoremap H gT
