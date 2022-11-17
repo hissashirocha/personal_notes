@@ -1,0 +1,8 @@
+RESOLVING PYCHARM REFERENCES
+- Right-click on SRC folder >> Mark Directory as >> Sources Root
+
+CONFIGURING PYTHON
+- Based on the Docker Compose file
+		- Preferences >> Python Interpreter >> Add Interpreter >> On Docker Compose
+		- Pick server as Docker (click on ... if needed) and select webserver as Service
+
