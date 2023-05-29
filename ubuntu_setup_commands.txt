@@ -1,0 +1,18 @@
+COMMANDS
+
+1 - Install Terminator (iTerm2 alteranative for Ubuntu)
+
+2 - Install ZSH
+	- sudo apt install zsh -y
+	- Install Oh-My-Zsh: curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+	- Install font: sudo apt-get install fonts-powerline
+	- Change to root: sudo -s
+	- Change shell from BASH to ZSH: chsh -s /bin/zsh hissashi (user)
+	- Change the theme to agnoster on file ~/.zshrc
+
+3 - Change Capslock to Escape
+
+	- Install gnome-tweaks: sudo apt-get install gnome-tweaks
+	- Run: gnome-tweaks
+	- Change Capslock to Escape
+

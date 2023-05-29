@@ -1,0 +1,16 @@
+SHORTCUTS
+
+TERMINATOR
+
+	1 - Split terminator window
+		- Vertical: CTRL + SHIFT + O
+		- Horizontal: CTRL + SHIFT + E
+		- Close split: CTRL + SHIFT + W
+
+	2 - Active split: ALT + UP/DOWN/SIDE
+
+WINDOWS VIZ
+
+	1 - Show another window: CTRL + ALT + SIDE
+	
+	2 - Fullscrean: FN + F11
